@@ -39,9 +39,32 @@
 
 // Tipos de datos primitivos
 
-let nombre = "Alvaro"; // String
-let edad = 36; // Number
-let esDesarrollador = true; // Boolean // CamelCase
-let direccion; // Undefined
+// let nombre = "Alvaro"; // String
+// let edad = 36; // Number
+// let esDesarrollador = true; // Boolean // CamelCase
+// let direccion; // Undefined
 
 
+// Operadores aritméticos
+
+// const a = 10;
+// const b = 5;
+
+// console.log("Suma: ", a + b);
+// console.log("Resta: ", a - b);
+// console.log("Multiplicación: ", a * b);
+// console.log("División: ", a / b);
+// console.log("Módulo: ", a % b);
+
+// let país = "España";
+// let num = 10;
+// let Undefined;
+
+// console.log("El país es: ", país);
+// console.log("El número es: ", num);
+// console.log("El valor de Undefined es: ", Undefined);
+
+const PRECIO = 100;
+let cantidad = 3;
+
+console.log("Precio total: ", PRECIO * cantidad);
