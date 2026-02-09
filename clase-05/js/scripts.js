@@ -100,11 +100,21 @@
 // nombres.forEach (mostrarNombre);
 
 
+// const numeros = [20, 15, 10, 5];
+
+// function mostrarNumeros (numero) {
+//     numero = numero + "!!";
+//     console.log(numero);
+// }
+
+// numeros.forEach(mostrarNumeros);
+
+// ------- map
+
 const numeros = [20, 15, 10, 5];
 
-function mostrarNumeros (numero) {
-    numero = numero + "!!";
-    console.log(numero);
-}
-
-numeros.forEach(mostrarNumeros)
+function multiplicarPorDos (numero){
+    return numero * 2;
+ }
+const porDos = numeros.map(multiplicarPorDos);
+console.log(porDos); // [40, 30, 20, 10]
